@@ -1,9 +1,13 @@
 import React from 'react'
-
+import SubNavigation from '@/components/SubNavigation'
 
 function About() {
   return (
-    <div>page</div>
+
+    <>
+            <SubNavigation/>
+
+    </>
   )
 }
 

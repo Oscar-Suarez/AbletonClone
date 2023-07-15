@@ -1,0 +1,28 @@
+.navbar {
+    background-color: white;
+    padding: 10px 40px;
+
+}
+
+.navbarNav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 10px;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.navLink {
+    color: #000;
+    text-decoration: none;
+}
+
+
+nav a.active {
+    color: #ff764d;
+  }
