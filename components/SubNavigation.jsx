@@ -4,7 +4,7 @@ import Link from 'next/link'
 import styles from '@/styles/SubNav.module.css'
 function SubNavigation() {
 
-    const [activeLink, setActiveLink] = useState(""); // Estado para almacenar el link activo
+    const [activeLink, setActiveLink] = useState("About"); // Estado para almacenar el link activo
 
     const handleLinkClick = (link) => {
       setActiveLink(link); // Actualizar el link activo cuando se hace clic en un link

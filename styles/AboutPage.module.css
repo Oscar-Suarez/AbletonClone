@@ -1,0 +1,38 @@
+.generalPage {
+    background-color: white;
+}
+
+.contAbout {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.firsCont {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.firstImg {
+    z-index: 1;
+    width : 85%;
+    height: 680px;
+}
+
+.titleAbl {
+    font-size: 100px;
+    font-weight: 600;
+    transform: translate(10%, -300%);
+    color: #ff764d;
+    z-index: 2;
+}
+
+.secondImg {
+    background-color: black;
+    padding: 20px;
+}

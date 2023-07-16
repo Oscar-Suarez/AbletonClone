@@ -8,7 +8,7 @@ import '@/styles/Navbar.css'
 function Navigation() {
 
     
-    const [activeLink, setActiveLink] = useState(""); // Estado para almacenar el link activo
+    const [activeLink, setActiveLink] = useState("More +"); // Estado para almacenar el link activo
 
     const handleLinkClick = (link) => {
       setActiveLink(link); // Actualizar el link activo cuando se hace clic en un link
