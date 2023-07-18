@@ -111,9 +111,31 @@ function About() {
       </div>
     </div>
 
-
+    <div className={styles.contDoce}>
+          <h1>
+          We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
+          </h1>
+          <p>
+          If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.
+          </p>
+      </div>
+      
+    <div className={styles.contTrece}>
+      <div className={styles.contBlue}>
+        <div className={styles.contPTrece}>
+        <h1>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</h1>
+        <a href="https://www.ableton.com/en/jobs/">See latest jobs {'>'}</a>
+        </div>
+      </div>
+      <div className={styles.contImg8}>
+        <Image className={styles.img8} src={img8}></Image>
+      </div>
+    </div>
 
       </div>
+      <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, in sequi consequatur labore placeat illum tenetur officia soluta vel unde quidem, sapiente, laborum esse. Ipsa unde repudiandae et veniam accusamus?</p>
+      </footer>
     </div>
   )
 }

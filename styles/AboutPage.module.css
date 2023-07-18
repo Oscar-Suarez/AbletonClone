@@ -65,13 +65,14 @@
     margin-top: 80px;
 }
 
-.contWhite{
+.contWhite {
     background-color: white;
     padding: 30%;
     z-index: 0;
     width: 60%;
     height: 100%;
 }
+
 .img1 {
     left: 8%;
     top: 10%;
@@ -90,6 +91,7 @@
     right: 0%;
     z-index: 1;
 }
+
 .img2 {
     position: absolute;
     width: 55%;
@@ -121,18 +123,18 @@
 
 /**********************************QUINTO CONTENEDOR (VIDEO)**********************************/
 
-.contCnco{
+.contCnco {
     margin: 5% 26% 15% 26%;
     width: 50%;
     height: 100%;
 }
 
-.ffthVideo{
+.ffthVideo {
     height: 200%;
-    width:  95%;
+    width: 95%;
 }
 
-.contCnco p{
+.contCnco p {
     font-size: 12px;
     font-weight: 600;
 }
@@ -165,7 +167,7 @@
     margin-bottom: 10%;
 }
 
-.contGreen{
+.contGreen {
     background-color: #b6ffc0;
     padding: 35% 30%;
     position: absolute;
@@ -174,17 +176,17 @@
     z-index: 1;
 }
 
-.img3{
-        position: absolute;
-        width: 55%;
-        height: 35%;
-        z-index: 1;
-        object-fit: cover;
-        left: 13%;
-        bottom: 55%;
+.img3 {
+    position: absolute;
+    width: 55%;
+    height: 35%;
+    z-index: 1;
+    object-fit: cover;
+    left: 13%;
+    bottom: 55%;
 }
 
-.img4{
+.img4 {
     position: absolute;
     width: 55%;
     height: 35%;
@@ -195,7 +197,7 @@
 }
 
 
-.contWhite2{
+.contWhite2 {
     background-color: white;
     padding: 30%;
     z-index: 0;
@@ -203,14 +205,14 @@
     height: 100%;
 }
 
-.img5{
-        right: 9%;
-        top: 15%;
-        width: 42%;
-        height: 45%;
-        position: absolute;
-        z-index: 2;
-        object-fit: cover;
+.img5 {
+    right: 9%;
+    top: 15%;
+    width: 42%;
+    height: 45%;
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
 }
 
 /**********************************OCTAVO CONTENEDOR (TEXTO)**********************************/
@@ -232,11 +234,11 @@
 }
 
 /**********************************NOVENO CONTENEDOR (IMAGEN)**********************************/
-.contNve{
+.contNve {
     margin: 10%;
 }
 
-.prod{
+.prod {
     height: 100%;
     width: 100%;
 }
@@ -260,19 +262,18 @@
 }
 
 
-/**********************************DÉCIMOPRIMER CONTENEDOR (TEXTO)**********************************/
+/**********************************DÉCIMOPRIMER CONTENEDOR (CUADRO MORADO)**********************************/
 
-.contOnce{
-    padding: 50%; 
-  position: relative;
-  background-color: white;
-  }
+.contOnce {
+    padding: 35% 45% 35% 45%;
+    position: relative;
+    background-color: white;
+    margin: 0% 0%;
+}
 
-
-
-.contPrple{
+.contPrple {
     background-color: #d5b3ff;
-    width: 66%;
+    width: 67%;
     height: 80%;
     position: absolute;
     top: 50%;
@@ -280,22 +281,90 @@
     transform: translate(-50%, -50%);
 }
 
-.img6{
+.img6 {
     position: absolute;
     width: 34%;
-    height: 25%;
+    height: 28%;
     z-index: 1;
     object-fit: cover;
     left: 8%;
-    bottom: 40%;
+    bottom: 37%;
 }
 
-.img7{
+.img7 {
     position: absolute;
     width: 42%;
-    height: 40%;
+    height: 55%;
     z-index: 1;
     object-fit: cover;
     left: 58%;
-    bottom: 33%;
+    bottom: 22%;
 }
+
+/**********************************DÉCIMO SEGUNDO CONTENEDOR (TEXTO)**********************************/
+
+.contDoce {
+    background-color: white;
+    margin: 0% 26%;
+    text-align: justify;
+}
+
+.contDoce h1 {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.contDoce p {
+    padding-top: 20px;
+    font-size: 15.2px;
+    font-weight: 450;
+}
+
+
+/**********************************DÉCIMO TERCER CONTENEDOR (TEXTO)**********************************/
+
+
+.contTrece {
+    padding: 25% 45% 35% 45%;
+    position: relative;
+    background-color: white;
+    margin: 0% 0%;
+}
+
+.contBlue {
+    background-color: #b1c5ff;
+    width: 44%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    left: 47.6%;
+
+}
+
+.img8 {
+    position: absolute;
+    width: 42%;
+    height: 70%;
+    z-index: 1;
+    object-fit: cover;
+    left: 8%;
+    top: 10%;
+}
+
+.contPTrece{
+    margin: 32% 22%;
+    text-align: justify;
+}
+
+.contPTrece a {
+    text-decoration: none;
+    color: #0000ff;
+    font-weight: 500;
+    font-size: 22px;
+}
+.contBlue h1 {
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 1.5; 
+}
+
