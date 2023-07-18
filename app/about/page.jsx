@@ -9,6 +9,9 @@ import img3 from '@/assets/img/photo-3.jpg'
 import img4 from '@/assets/img/photo-4.jpg'
 import img5 from '@/assets/img/photo-5.jpg'
 import prod from '@/assets/img/production.avif'
+import img6 from '@/assets/img/photo-6.jpg'
+import img7 from '@/assets/img/photo-7.jpg'
+import img8 from '@/assets/img/photo-8.jpg'
 
 function About() {
 
@@ -52,7 +55,7 @@ function About() {
         </div>
 
         <div className={styles.contCnco}>
-        <iframe  src="https://www.youtube.com/embed/9SbnhgjeyXA" frameborder="0" allowfullscreen className={styles.ffthVideo}></iframe>
+        <iframe  src="https://www.youtube.com/embed/9SbnhgjeyXA"  allowFullScreen className={styles.ffthVideo}></iframe>
         <p>Why Ableton - Juanpe Bolivar</p>
         </div>
 
@@ -100,6 +103,13 @@ function About() {
           </p>
       </div>
 
+    <div className={styles.contOnce}>
+      <div className={styles.contPrple}></div>
+      <div className={styles.contImg67}>
+        <Image className={styles.img6} src={img6}></Image>
+        <Image className={styles.img7} src={img7}></Image>
+      </div>
+    </div>
 
 
 

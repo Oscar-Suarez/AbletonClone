@@ -74,7 +74,7 @@
 }
 .img1 {
     left: 8%;
-    top: 12%;
+    top: 10%;
     width: 42%;
     height: 60%;
     position: absolute;
@@ -231,7 +231,7 @@
     font-weight: 450;
 }
 
-/**********************************NOVENO CONTENEDOR (TEXTO)**********************************/
+/**********************************NOVENO CONTENEDOR (IMAGEN)**********************************/
 .contNve{
     margin: 10%;
 }
@@ -257,4 +257,45 @@
     padding-top: 20px;
     font-size: 15.2px;
     font-weight: 450;
+}
+
+
+/**********************************DÉCIMOPRIMER CONTENEDOR (TEXTO)**********************************/
+
+.contOnce{
+    padding: 50%; 
+  position: relative;
+  background-color: white;
+  }
+
+
+
+.contPrple{
+    background-color: #d5b3ff;
+    width: 66%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img6{
+    position: absolute;
+    width: 34%;
+    height: 25%;
+    z-index: 1;
+    object-fit: cover;
+    left: 8%;
+    bottom: 40%;
+}
+
+.img7{
+    position: absolute;
+    width: 42%;
+    height: 40%;
+    z-index: 1;
+    object-fit: cover;
+    left: 58%;
+    bottom: 33%;
 }
