@@ -8,20 +8,21 @@
     flex-direction: column;
 }
 
-.firsCont {
+/**********************************PRIMER CONTENEDOR (IMAGEN PRINCIPAL)**********************************/
+.contUno {
     background-color: white;
     padding: 40px;
-    margin-bottom: -50px;
+    margin-bottom: -80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.firstImg {
+.imgH {
     z-index: 1;
-    width : 85%;
-    height: 680px;
+    width: 85%;
+    height: 0%;
 }
 
 .titleAbl {
@@ -32,7 +33,192 @@
     z-index: 2;
 }
 
-.secondImg {
-    background-color: black;
-    padding: 20px;
+/**********************************SEGUNDO CONTENEDOR(TEXTO)**********************************/
+.contDos {
+    background-color: white;
+    margin: 0% 26%;
+    text-align: justify;
+}
+
+.contDos h1 {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.contDos a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.contDos p {
+    padding-top: 20px;
+    font-size: 15.2px;
+    font-weight: 450;
+}
+
+/**********************************TERCER CONTENEDOR(IMÁGENES CUADRO AMARILLO)**********************************/
+
+.contTres {
+    background-color: white;
+    padding: 200px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.contWhite{
+    background-color: white;
+    padding: 30%;
+    z-index: 0;
+    width: 60%;
+    height: 100%;
+}
+.img1 {
+    left: 8%;
+    top: 12%;
+    width: 42%;
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.contYellow {
+    background-color: #fbffa7;
+    padding: 30%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+}
+.img2 {
+    position: absolute;
+    width: 55%;
+    height: 40%;
+    z-index: 1;
+    object-fit: cover;
+    left: 30%;
+    bottom: 30%;
+}
+
+/**********************************CUARTO CONTENEDOR(TEXTO)**********************************/
+
+.contCtro {
+    background-color: white;
+    margin: 0% 26%;
+    text-align: justify;
+}
+
+.contCtro h1 {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.contCtro p {
+    padding-top: 20px;
+    font-size: 15.2px;
+    font-weight: 450;
+}
+
+/**********************************QUINTO CONTENEDOR (VIDEO)**********************************/
+
+.contCnco{
+
+    margin: 5% 26%;
+    width: 52%;
+    height: 401px;
+}
+
+.ffthVideo{
+    height: 112%;
+    width:  100%;
+}
+
+.contCnco p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/**********************************SEXTO CONTENEDOR (TEXTO)**********************************/
+
+.contSeis {
+    background-color: white;
+    margin: 10% 26%;
+    text-align: justify;
+}
+
+.contSeis h1 {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.contSeis p {
+    padding-top: 20px;
+    font-size: 15.2px;
+    font-weight: 450;
+}
+
+/**********************************SÉPTIMO CONTENEDOR (CUADRO VERDE)**********************************/
+
+.contSte {
+    background-color: white;
+    padding: 200px;
+    position: relative;
+    margin-bottom: 800px;
+}
+
+.contGreen{
+    background-color: #b6ffc0;
+    padding: 35% 30%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.img3{
+        position: absolute;
+        width: 55%;
+        height: 35%;
+        z-index: 1;
+        object-fit: cover;
+        left: 13%;
+        bottom: 55%;
+}
+
+.img4{
+    position: absolute;
+    width: 55%;
+    height: 35%;
+    z-index: 1;
+    object-fit: cover;
+    left: 13%;
+    bottom: 8%;
+}
+
+.img5{
+        right: 9%;
+        top: 55%;
+        width: 42%;
+        height: 162%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+}
+
+/**********************************OCTAVO CONTENEDOR (TEXTO)**********************************/
+.contOcho {
+    background-color: white;
+    margin: 0% 26%;
+    text-align: justify;
+}
+
+.contOcho h1 {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.contOcho p {
+    padding-top: 20px;
+    font-size: 15.2px;
+    font-weight: 450;
 }
