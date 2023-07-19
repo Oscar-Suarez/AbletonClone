@@ -25,10 +25,10 @@ function Footer() {
                         <a href="https://www.ableton.com/en/jobs/">Jobs {'>'}</a>
                     </div>
                     <div className={styles.sm}>
-                        <a className={styles.fbCont} href='https://www.facebook.com/ableton'><Image src={fb} className={styles.fb} alt='facebook' /></a>
-                        <a className={styles.twCont} href='https://twitter.com/i/flow/login?redirect_after_login=%2Fableton'><Image src={tw} className={styles.tw} alt='twitter' /></a>
-                        <a className={styles.ytCont} href='https://www.youtube.com/ableton'><Image src={yt} className={styles.yt} alt='youtube' /></a>
-                        <a className={styles.igCont} href='https://www.instagram.com/ableton/'><Image src={ig} className={styles.ig} alt='instagram' /></a>
+                        <a className={styles.smACont} href='https://www.facebook.com/ableton'><Image src={fb} className={styles.smLG} alt='facebook' /></a>
+                        <a className={styles.smACont} href='https://twitter.com/i/flow/login?redirect_after_login=%2Fableton'><Image src={tw} className={styles.smLG} alt='twitter' /></a>
+                        <a className={styles.smACont} href='https://www.youtube.com/ableton'><Image src={yt} className={styles.smLG} alt='youtube' /></a>
+                        <a className={styles.smACont} href='https://www.instagram.com/ableton/'><Image src={ig} className={styles.smLG} alt='instagram' /></a>
                     </div>
                 </div>
                 <div className={styles.eduCont}>
