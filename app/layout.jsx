@@ -1,7 +1,7 @@
 
 import { Inter } from 'next/font/google'
 import Navigation from '@/components/Navigation'
-import Fter from '@/components/Footer'
+import Fter from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -20,10 +20,13 @@ export default function RootLayout({ children }) {
         <Navigation />
         {children}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossOrigin="anonymous"></script>
-      </body>
 
+        <footer>
         <Fter>
         </Fter>
+      </footer>
+      </body>
+
     </html>
   )
 }

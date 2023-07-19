@@ -15,7 +15,6 @@ import img8 from '@/assets/img/photo-8.jpg'
 
 function About() {
 
-
   return (
 
     <div className={styles.generalPage}>
@@ -23,7 +22,7 @@ function About() {
       <div className={styles.contAbout}>
 
         <div className={styles.contUno}>
-          <Image className={styles.imgH} src={imgH} />
+          <Image className={styles.imgH} src={imgH} alt='Ableton' />
           <p className={styles.titleAbl}>Ableton</p>
         </div>
         
@@ -38,10 +37,10 @@ function About() {
 
         <div className={styles.contTres}>
           <div className={styles.contYellow}>
-            <Image className={styles.img2} src={img2}/>
+            <Image className={styles.img2} src={img2} alt='Ableton'/>
           </div>
           <div className={styles.contWhite}>
-          <Image className={styles.img1} src={img1}/>
+          <Image className={styles.img1} src={img1} alt='Ableton'/>
           </div>
         </div>
 
@@ -55,7 +54,7 @@ function About() {
         </div>
 
         <div className={styles.contCnco}>
-        <iframe  src="https://www.youtube.com/embed/9SbnhgjeyXA"  allowFullScreen className={styles.ffthVideo}></iframe>
+        <iframe  src="https://www.youtube.com/embed/9SbnhgjeyXA"   className={styles.ffthVideo}></iframe>
         <p>Why Ableton - Juanpe Bolivar</p>
         </div>
 
@@ -70,11 +69,11 @@ function About() {
 
         <div className={styles.contSte}>
           <div className={styles.contGreen}>
-            <Image className={styles.img3} src={img3}/>
-            <Image className={styles.img4} src={img4}/>
+            <Image className={styles.img3} src={img3} alt='Ableton'/>
+            <Image className={styles.img4} src={img4} alt='Ableton'/>
           </div>
           <div className={styles.contWhite2}>
-          <Image className={styles.img5} src={img5}/>
+          <Image className={styles.img5} src={img5} alt='Ableton'/>
           </div>
         </div>
 
@@ -88,7 +87,7 @@ function About() {
         </div>
 
       <div className={styles.contNve}>
-        <Image className={styles.prod} src={prod}/>
+        <Image className={styles.prod} src={prod} alt='Ableton'/>
       </div>
 
       <div className={styles.contDiez}>
@@ -106,8 +105,8 @@ function About() {
     <div className={styles.contOnce}>
       <div className={styles.contPrple}></div>
       <div className={styles.contImg67}>
-        <Image className={styles.img6} src={img6}/>
-        <Image className={styles.img7} src={img7}/>
+        <Image className={styles.img6} src={img6} alt='Ableton'/>
+        <Image className={styles.img7} src={img7} alt='Ableton'/>
       </div>
     </div>
 
@@ -128,7 +127,7 @@ function About() {
         </div>
       </div>
       <div className={styles.contImg8}>
-        <Image className={styles.img8} src={img8}/>
+        <Image className={styles.img8} src={img8} alt='Ableton'/>
       </div>
     </div>
 
