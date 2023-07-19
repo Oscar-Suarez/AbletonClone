@@ -321,7 +321,7 @@
 }
 
 
-/**********************************DÉCIMO TERCER CONTENEDOR (TEXTO)**********************************/
+/**********************************DÉCIMO TERCER CONTENEDOR (CUADRO AZUL)**********************************/
 
 
 .contTrece {
@@ -338,7 +338,6 @@
     position: absolute;
     top: 10%;
     left: 47.6%;
-
 }
 
 .img8 {
@@ -351,20 +350,84 @@
     top: 10%;
 }
 
-.contPTrece{
-    margin: 32% 22%;
+.contPTrece {
+    width: 60%; 
+    height: 55%;
     text-align: justify;
+    box-sizing: border-box;
+    margin: 30% 25%;
 }
 
-.contPTrece a {
+.contBlue a {
     text-decoration: none;
     color: #0000ff;
     font-weight: 500;
-    font-size: 22px;
-}
-.contBlue h1 {
-    font-size: 24px;
-    font-weight: 550;
-    line-height: 1.5; 
+    font-size: 1.6vw;
 }
 
+.contBlue h1 {
+    font-size: 1.8vw;
+    font-weight: 550;
+    line-height: 1.5;
+}
+
+
+/************************************************************* RESPONSIVIDAD *************************************************************/
+
+
+@media (max-width: 1280px) {
+
+/*DÉCIMO TERCER CONTENEDOR (CUADRO AZUL)*/
+    .img8 {
+        position: absolute;
+        width: 81.6%;
+        height: 40%;
+        z-index: 1;
+        object-fit: cover;
+        left: 9%;
+        top: 10%;
+    }
+
+    .contBlue {
+        width: 81.6%;
+        height: 40%;
+        top: 45%;
+        left: 9%;
+    }
+
+    .contPTrece {
+        margin: 10% 22%;
+    }
+    
+
+}
+
+@media (max-width: 1000px) {
+    
+    /*SEGUNDO CONTENEDOR*/
+    .contDos h1 {
+        font-size: 4vw;
+        font-weight: 550;
+    }
+
+    .contDos p {
+        padding-top: 20px;
+        font-size: 2vw;
+        font-weight: 450;
+    }
+    /*DÉCIMO TERCER CONTENEDOR*/
+
+    .contPTrece {
+        margin: 6% 25%;
+    }
+    .contBlue a {
+        font-size: 2vw;
+    }
+    
+    .contBlue h1 {
+        font-size: 2.5vw;
+        line-height: 1.1;
+    }
+    
+
+}

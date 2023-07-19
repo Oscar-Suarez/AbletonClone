@@ -106,8 +106,8 @@ function About() {
     <div className={styles.contOnce}>
       <div className={styles.contPrple}></div>
       <div className={styles.contImg67}>
-        <Image className={styles.img6} src={img6}></Image>
-        <Image className={styles.img7} src={img7}></Image>
+        <Image className={styles.img6} src={img6}/>
+        <Image className={styles.img7} src={img7}/>
       </div>
     </div>
 
@@ -128,14 +128,12 @@ function About() {
         </div>
       </div>
       <div className={styles.contImg8}>
-        <Image className={styles.img8} src={img8}></Image>
+        <Image className={styles.img8} src={img8}/>
       </div>
     </div>
 
       </div>
-      <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, in sequi consequatur labore placeat illum tenetur officia soluta vel unde quidem, sapiente, laborum esse. Ipsa unde repudiandae et veniam accusamus?</p>
-      </footer>
+
     </div>
   )
 }

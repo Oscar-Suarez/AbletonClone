@@ -1,7 +1,7 @@
 
 import { Inter } from 'next/font/google'
 import Navigation from '@/components/Navigation'
-
+import Fter from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,10 +17,13 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/ableton.svg" />
       </head>
       <body className={inter.className}>
-      <Navigation/>
+        <Navigation />
         {children}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossOrigin="anonymous"></script>
-        </body>
+      </body>
+
+        <Fter>
+        </Fter>
     </html>
   )
 }
